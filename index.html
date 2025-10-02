@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <span class="logo">Андреев Евгений</span>
+            <nav class="navigation">
+                <ul class="menu">
+                    <li class="menu-elenent">
+                        <a href="menu-element__link">Home</a>
+                    </li>
+                    <li class="menu-elenent">
+                        <a href="menu-element__link">About</a>
+                    </li>
+                    <li class="menu-elenent">
+                        <a href="menu-element__link">Achievements</a>
+                    </li>
+                    <li class="menu-elenent">
+                        <a href="menu-element__link">Skills</a>
+                    </li>
+                    <li class="menu-elenent">
+                        <a href="menu-element__link">Work</a>
+                    </li>
+                    <li class="menu-elenent">
+                        <a href="menu-element__link">Interests</a>
+                    </li>
+                    <li class="menu-elenent">
+                        <a href="menu-element__link">Books</a>
+                    </li>
+                    <li class="menu-elenent">
+                        <a href="menu-element__link">Contact me</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="switcher">Ru/Eng</div>
+        </div>
+
+        <div class="header-center">
+            <h1 class="name">Андреев Евгений</h1>
+            <p class="description">Привет. Меня зовут Евгений, и я веб-разработчик</p>
+        </div>
+    </header>
+
+    <section class="about-me">
+        <div class="left">
+            <img src="" alt="Моя фотка">
+        </div>
+
+        <div class="right">
+            <h2 class="about-me__title">Андреев Евгений Александрович</h2>
+            <h2 class="about-me__description gray">Я тоже своего рода программист</h2>
+
+            <ul class="about-me__extra">
+                <li class="about-me__extra-element">
+                    <span class="bold">Дата рождения:</span> 
+                    <span>06.02.2003</span>
+                </li>
+                <li class="about-me__extra-element">
+                    <span class="bold">Адрес:</span> 
+                    <span>Ишим, Тюменская область, Россия</span>
+                </li>
+                <li class="about-me__extra-element">
+                    <span class="bold">Образование: </span>
+                    <span>Ишимский Многопрофильный Техникум.</span>
+                </li>
+                <li class="about-me__extra-element">
+                    <span class="bold">Специальность: </span>
+                    <span>Информационные системы и программирование</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2 class="second-title">Навыки</h2>
+        <p class="section-description">Мои субъективные оценки моего уровня работы с определёнными ЯП</p>
+
+        <ul class="skills-filters">
+            <li class="skill-filter">Все</li>
+            <li class="skill-filter">HTML/CSS</li>
+            <li class="skill-filter">PHP</li>
+            <li class="skill-filter">JS</li>
+            <li class="skill-filter">DB</li>
+            <li class="skill-filter">Other</li>
+        </ul>
+
+        <div class="skills-wrapper left">
+            <ul>
+                <li class="skills-list__element">C#</li>
+                <li class="skills-list__element">SQL</li>
+                <li class="skills-list__element">HTML</li>
+                <li class="skills-list__element">CSS</li>
+            </ul>
+
+            <div class="skills-card right">
+                <div class="skill-card__title">
+                    <img src="" alt="C#" class="skill-card__image">
+                    <span class="skill-card__name">C#</span>
+                </div>
+
+                <div class="skill-card__progress">
+                    <span class="skill-card__progress-percent">30%</span>
+                    <div class="skill-card__progress-bar"></div>
+                </div>
+
+                <p class="skill-card__description">
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-me">
+        <h2 class="second-title">Обратная связь</h2>
+
+        <form action="" class="contact-me__form">
+            <div class="input-wrapper">
+                <label class="label" for="name">Имя</label>
+                <input class="input" type="text" id="name" required/>
+            </div>
+            <div class="input-wrapper">
+                <label class="label" for="email">E-mail</label>
+                <input class="input" type="email" id="email" required/>
+            </div>
+
+            <div class="textarea-wrapper">
+                <label class="label" for="">Сообщение</label>
+                <textarea class="textarea" name="message" id="message" cols="30" rows="10" required></textarea>
+            </div>
+
+            <button type="submit" class="submit"></button>
+        </form>
+    </section>
+
+    <footer>
+        <ul class="socials">
+            <li class="social-element">
+                <a href="https://vk.com/samedibaron97" target="_blank" class="social-element__link">VK</a>
+            </li>
+            <li class="social-element">
+                <a href="https://t.me/SamediBaron" target="_blank" class="social-element__link">TG</a>
+            </li>
+        </ul>
+
+        <p class="footer-about">
+            &copy;&nbsp;Андреев&nbsp;Евгений&nbsp;2025 г.
+        </p>
+    </footer>
+</body>
+</html>
