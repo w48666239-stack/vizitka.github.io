@@ -16,9 +16,20 @@ a:hover{
 /* Header */
 
 .header{
+    position: relative;
     height: 100vh;
     background: url(../1659855080_7-kartinkin-net-p-temnii-fon-dlya-video-krasivo-7.jpg) no-repeat;
     background-size: cover;
+}
+
+.header__background {
+    position: absolute;
+    height: inherit;
+    width: 100%;
+
+    background: rgb(0, 0, 0, .5);
+
+    z-index: 1;
 }
 
 .header-top{
@@ -28,6 +39,8 @@ a:hover{
     align-items: center     ;
     justify-content: space-evenly;
     height: 80px;
+    z-index: 2;
+    position: relative;
 }
 
 .logo{
@@ -58,6 +71,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     height: 80vh;
+    z-index: 2;
 }
 
 .header-center__wrapper {
