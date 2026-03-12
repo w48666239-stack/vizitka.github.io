@@ -1,0 +1,109 @@
+@media screen and (max-width: 1200px) {
+  .logo {
+    font-size: 28px;
+  }
+
+  .menu-element {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .menu-element__link.active .home {
+    width: 20px;
+    height: 20px;
+  }
+
+  .switcher-container {
+    width: 200px;
+  }
+
+  .about-me__image {
+    width: 300px;
+  }
+
+  .about-me__title {
+    font-size: 32px;
+  }
+
+  .about-me__description {
+    font-size: 32px;
+  }
+
+  ul.about-me__extra {
+    font-size: 16px;
+  }
+
+  .form-result__content {
+    font-size: 18px;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .contact-me__form {
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .header-top {
+    width: 100%;
+  }
+  .logo {
+    font-size: 16px;
+    width: 120px;
+  }
+
+  .header__background {
+    width: 100%;
+  }
+
+  .description {
+    font-size: 18px;
+  } 
+
+  .menu-element {
+    font-size: 16px;
+    margin-right: 1px;
+  }
+
+  .menu-element__link.active .home {
+    width: 18px;
+    height: 18px;
+  }
+
+  .switcher-container {
+    width: 200px;
+  }
+
+  .switcher-wrapper {
+    width: 100px;
+  }
+
+  .switcher {
+    font-size: 14px;
+    width: 100px;
+  }
+
+#lang:checked + .switcher:before {
+  left: 1px;
+}
+
+  .lang-placeholder {
+    width: 32px;
+    height: 25px;
+  }
+
+  .switcher-wrapper input[type="checkbox"]:nth-of-type(1):checked ~ .lang-placeholder {
+    left: 11px;
+  }
+
+  .switcher-wrapper input[type="checkbox"]:nth-of-type(2):checked ~ .lang-placeholder {
+    left: 47px;
+  }
+
+  .name {
+    font-size: 40px;
+    line-height: 54px;
+  }
+}
